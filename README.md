@@ -72,7 +72,6 @@ ON (Tools.type = 1
 AND Tools.id = (JobsTools.affiliate_id)
 AND (Tools.deleted) IS NULL)
 LEFT JOIN jobs_career_paths JobsCareerPaths
-Page 3/4
 ON Jobs.id = (JobsCareerPaths.job_id)
 LEFT JOIN affiliates CareerPaths
 ON (CareerPaths.type = 3
